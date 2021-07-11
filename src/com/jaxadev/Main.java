@@ -14,21 +14,55 @@ public class Main {
 //        boolean	1 bit	Stores true or false values
 //        char	2 bytes	Stores a single character/letter or ASCII values
 
-        byte numberByte = 127;
+//        byte numberByte = 127;
+//
+//        short numberShort = 32767;
+//
+//        int numberInt = 2147483647;
+//
+//        long numberLong = 92233722;
+//
+//        float numberFloat = 454815.55F;
+//
+//        double numberDouble = 454865486.4545F;
+//
+//        boolean trueBoolean = true;
+//
+//        char symbolChar = 'h';
 
-        short numberShort = 32767;
+        //Arfimetik Operatorlar
 
-        int numberInt = 2147483647;
+//        int a = 10;
+//
+//        int b = 3;
+//
+//        int c = a % b;
+//
+//        System.out.println(c);
 
-        long numberLong = 92233722;
+        //Tenglash Operatorlar
 
-        float numberFloat = 454815.55F;
+//        int a = 7;
+//
+//        a -= 10;
+//
+//        System.out.println(a);
 
-        double numberDouble = 454865486.4545F;
+        //Taqqoslash operatorlari
 
-        boolean trueBoolean = true;
+//        int a = 7;
+//
+//        int b = 45;
+//
+//        System.out.println(a != b);
 
-        char symbolChar = 'h';
+        //Manitiqiy operatorlar
+
+//        boolean a = true;
+//
+//        boolean b = false;
+//
+//        System.out.println(!a);
 
 
     }
