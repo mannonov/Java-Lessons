@@ -64,6 +64,28 @@ public class Main {
 //
 //        System.out.println(!a);
 
+//        int a = 85;
+//
+//        int b = 60;
+//
+//        if(a < 15){
+//            System.out.println("Tezroq zaprafkaga borish kerak");
+//        }else if (a > 15 && a < 30){
+//            System.out.println("Benzin hali bor ekan, zaprafkaga borish shart emas hozircha");
+//        }else {
+//            System.out.println("Zaprafkaga borish shart enas");
+//        }
+
+        int time = 7;
+
+        if (time < 12 && time > 6){
+            System.out.println("Hayrli tong");
+        }else if (time < 18 && time > 12){
+            System.out.println("Hayrli kun");
+        }else {
+            System.out.println("Hayrli tun");
+        }
+
 
     }
 }
