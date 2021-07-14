@@ -1,5 +1,7 @@
 package com.jaxadev;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -76,15 +78,55 @@ public class Main {
 //            System.out.println("Zaprafkaga borish shart enas");
 //        }
 
-        int time = 7;
+//        int time = 7;
+//
+//        if (time < 12 && time > 6){
+//            System.out.println("Hayrli tong");
+//        }else if (time < 18 && time > 12){
+//            System.out.println("Hayrli kun");
+//        }else {
+//            System.out.println("Hayrli tun");
+//        }
 
-        if (time < 12 && time > 6){
-            System.out.println("Hayrli tong");
-        }else if (time < 18 && time > 12){
-            System.out.println("Hayrli kun");
-        }else {
-            System.out.println("Hayrli tun");
-        }
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.println("Ismingizni kirting!");
+//
+//        String name = scanner.nextLine();
+//
+//        System.out.println("name = " + name);
+
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.print("1 - sonni kirting: ");
+//
+//        int a = scanner.nextInt();
+//
+//        System.out.print("2 - sonni kirting: ");
+//
+//        int b = scanner.nextInt();
+//
+//        System.out.println("Sonlar ustida qaysi amalni bajarmoqchi ekanligingizni kiriting : ");
+//
+//        String amal = scanner.next();
+//
+//        switch (amal) {
+//            case "+":
+//                System.out.println("a + b = " + (a + b));
+//                break;
+//            case "-":
+//                System.out.println("a - b = " + (a - b));
+//                break;
+//            case "*":
+//                System.out.println("a * b = " + (a * b));
+//                break;
+//            case "/":
+//                System.out.println("a / b = " + (a / b));
+//                break;
+//            default:
+//                System.out.println("Siz noto'g'ri buyruqni kirtin yuborindingiz!");
+//                break;
+//        }
 
 
     }
