@@ -128,6 +128,21 @@ public class Main {
 //                break;
 //        }
 
+//        String[] androidDevelopers = {"Azamat", "Abdulaziz", "Jahongir", "Bobur", "Ali", "Sanjar", "Usmon", "Mirzakomil"};
+//
+//        int[] numbers = new int[5];
+//
+//        numbers[0] = 5;
+//        numbers[1] = 5;
+//        numbers[2] = 5;
+//        numbers[3] = 5;
+//        numbers[4] = 5;
+//
+//        System.out.println(androidDevelopers[0]);
+//
+//        androidDevelopers[0] = "Azamat aka Senior";
+//
+//        System.out.println(androidDevelopers[0]);
 
     }
 }
