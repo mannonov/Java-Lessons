@@ -144,5 +144,34 @@ public class Main {
 //
 //        System.out.println(androidDevelopers[0]);
 
+
+//        int a = 560;
+//
+//        while (a != 0) {
+//            a = a / 2;
+//            System.out.println(a);
+//        }
+
+//        int a = 0;
+//
+//        do {
+//
+//            a = a / 2;
+//            System.out.println(a);
+//
+//        } while (a != 0);
+
+//        String[] androidDevelopers = {"Azamat", "Abdulaziz", "Jahongir", "Bobur", "Ali", "Sanjar", "Usmon", "Mirzakomil"};
+
+//        for (int i = 0; i <= androidDevelopers.length - 1; i++) {
+//
+//            System.out.println(androidDevelopers[i]);
+//
+//        }
+
+//        for (String developer:androidDevelopers) {
+//            System.out.println(developer);
+//        }
+
     }
 }
