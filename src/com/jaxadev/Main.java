@@ -1,11 +1,8 @@
 package com.jaxadev;
 
-import java.util.Scanner;
-
 public class Main {
 
     public static void main(String[] args) {
-
 
 //        byte	1 byte	Stores whole numbers from -128 to 127
 //        short	2 bytes	Stores whole numbers from -32,768 to 32,767
@@ -173,5 +170,27 @@ public class Main {
 //            System.out.println(developer);
 //        }
 
+
+//        myMethod("Jahongir ");
+
+//        int b = plusNumber(50,50);
+//
+//        System.out.println(b);
+
     }
+
+    static int plusNumber(int a, int b) {
+
+        int c = a + b;
+
+        return c;
+
+    }
+
+    static void myMethod(String developer) {
+
+        System.out.println(developer + "Android developer");
+
+    }
+
 }
