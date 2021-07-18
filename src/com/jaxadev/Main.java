@@ -177,20 +177,32 @@ public class Main {
 //
 //        System.out.println(b);
 
-    }
 
-    static int plusNumber(int a, int b) {
 
-        int c = a + b;
 
-        return c;
+        Human human = new Human();
 
-    }
+        human.fName = "Abdulaziz";
 
-    static void myMethod(String developer) {
+        human.age = 18;
 
-        System.out.println(developer + "Android developer");
+        human.humanInfo(human);
+
 
     }
+
+//    static int plusNumber(int a, int b) {
+//
+//        int c = a + b;
+//
+//        return c;
+//
+//    }
+//
+//    static void myMethod(String developer) {
+//
+//        System.out.println(developer + "Android developer");
+//
+//    }
 
 }
