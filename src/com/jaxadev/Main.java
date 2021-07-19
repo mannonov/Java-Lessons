@@ -180,14 +180,24 @@ public class Main {
 
 
 
-        Human human = new Human();
+//        Human human = new Human();
+//
+//        human.fName = "Abdulaziz";
+//
+//        human.age = 18;
+//
+//        human.humanInfo(human);
 
-        human.fName = "Abdulaziz";
 
-        human.age = 18;
+        Human jaxongir = new Human("Jahongir","Mannonov",18);
 
-        human.humanInfo(human);
+        System.out.println(jaxongir.lName);
 
+        Human bobur = new Human("Bobur","Hayitboyev");
+
+        Human mirza = new Human();
+
+        mirza.humanInfo(bobur);
 
     }
 
