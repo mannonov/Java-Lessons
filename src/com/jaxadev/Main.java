@@ -178,8 +178,6 @@ public class Main {
 //        System.out.println(b);
 
 
-
-
 //        Human human = new Human();
 //
 //        human.fName = "Abdulaziz";
@@ -189,15 +187,23 @@ public class Main {
 //        human.humanInfo(human);
 
 
-        Human jaxongir = new Human("Jahongir","Mannonov",18);
+//        Human jaxongir = new Human("Jahongir","Mannonov",18);
+//
+//        System.out.println(jaxongir.lName);
+//
+//        Human bobur = new Human("Bobur","Hayitboyev");
+//
+//        Human mirza = new Human();
+//
+//        mirza.humanInfo(bobur);
 
-        System.out.println(jaxongir.lName);
 
-        Human bobur = new Human("Bobur","Hayitboyev");
+        Car car = new Car("Nexia", 120, "Black");
 
-        Human mirza = new Human();
 
-        mirza.humanInfo(bobur);
+        Cobalt cobalt = new Cobalt("Cobalt", 120,"White","Salon zo'r");
+
+
 
     }
 
