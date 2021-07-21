@@ -1,5 +1,7 @@
 package com.jaxadev;
 
+import com.jaxadev.lesson.PublicTest;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -197,13 +199,23 @@ public class Main {
 //
 //        mirza.humanInfo(bobur);
 
+//
+//        Car car = new Car("Nexia", 120, "Black");
+//
+//
+//        Cobalt cobalt = new Cobalt("Cobalt", 120,"White","Salon zo'r");
 
-        Car car = new Car("Nexia", 120, "Black");
+//        PublicTest publicTest = new PublicTest();
 
 
-        Cobalt cobalt = new Cobalt("Cobalt", 120,"White","Salon zo'r");
+        Human human = new Human("Bahodir", "Rajabov", 21);
+
+        System.out.println(human.getAge());
 
 
+//        final int number = 0;
+//
+//        number = 4785;
 
     }
 
