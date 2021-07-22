@@ -8,10 +8,8 @@ class Car {
 
     String carColor;
 
-    public Car(String carModel, int otKuchi, String carColor) {
-        this.carModel = carModel;
+    public Car(int otKuchi) {
         this.otKuchi = otKuchi;
-        this.carColor = carColor;
     }
 
     void carSound(){

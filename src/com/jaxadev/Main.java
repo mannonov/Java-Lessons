@@ -208,9 +208,26 @@ public class Main {
 //        PublicTest publicTest = new PublicTest();
 
 
-        Human human = new Human("Bahodir", "Rajabov", 21);
+//        Human human = new Human("Bahodir", "Rajabov", 21);
+//
+//        System.out.println(human.getAge());
 
-        System.out.println(human.getAge());
+
+
+        Car cars[] = new Car[4];
+
+        cars[0] = new SportCar(200);
+        cars[1] = new Car(120);
+        cars[2] = new SportCar(200);
+        cars[3] = new Car(120);
+
+        for (int i = 0; i < cars.length; i++) {
+
+            System.out.println(cars[i].otKuchi);
+
+        }
+
+
 
 
 //        final int number = 0;
