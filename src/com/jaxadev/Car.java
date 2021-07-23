@@ -1,6 +1,6 @@
 package com.jaxadev;
 
-class Car {
+abstract class Car {
 
     String carModel;
 
@@ -8,13 +8,23 @@ class Car {
 
     String carColor;
 
-    public Car(int otKuchi) {
-        this.otKuchi = otKuchi;
-    }
+    Bus bus = new Bus();
 
     void carSound(){
 
         System.out.println("G'inggg");
+
+    }
+
+    abstract void mashinaYurdi();
+
+    abstract void mashinaBalonlariNechta();
+
+    abstract void tezlik(int speed);
+
+    static class Bus{
+
+        String busModel;
 
     }
 

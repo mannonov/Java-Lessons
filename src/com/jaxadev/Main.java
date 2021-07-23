@@ -213,19 +213,35 @@ public class Main {
 //        System.out.println(human.getAge());
 
 
+//
+//        Car car = new Car(12);
+//
+//        Car.Bus carBus = new Car.Bus();
+//
+//        carBus.busModel = "Mersades";
+//
+//        System.out.println(carBus.busModel);
 
-        Car cars[] = new Car[4];
 
-        cars[0] = new SportCar(200);
-        cars[1] = new Car(120);
-        cars[2] = new SportCar(200);
-        cars[3] = new Car(120);
+        SportCar sportCar = new SportCar();
+        sportCar.carSound();
+        sportCar.mashinaYurdi();
+        sportCar.mashinaBalonlariNechta();
+        sportCar.tezlik(456);
 
-        for (int i = 0; i < cars.length; i++) {
-
-            System.out.println(cars[i].otKuchi);
-
-        }
+//
+//        Car cars[] = new Car[4];
+//
+//        cars[0] = new SportCar(200);
+//        cars[1] = new Car(120);
+//        cars[2] = new SportCar(200);
+//        cars[3] = new Car(120);
+//
+//        for (int i = 0; i < cars.length; i++) {
+//
+//            System.out.println(cars[i].otKuchi);
+//
+//        }
 
 
 
